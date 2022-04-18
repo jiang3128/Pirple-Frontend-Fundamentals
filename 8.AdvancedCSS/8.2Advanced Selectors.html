@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body > div{
+            height: 1000px;
+            width: 1000px;
+            background-color: aquamarine;
+        }
+        #example p, h3{
+            color:black;
+            font-size: 1.5rem;
+        }
+        #example p:first-child{
+            color:plum;
+        }
+    </style>
+</head>
+<body>
+    <div id="example" class="example-class">
+        <p>class are more specific than generic types of selectors, it will overwrite the prvious properties</p>
+        <h3>Hello, I am an H3 element</h3>
+        <a>I am testing paragraph</a>
+        <p>You can apply CSS to different elements at once, and you only need a comma, without the comma the browser will look h3 as a descendant of p</p>
+        <p>for example: #example p, h3</p>
+        <p>Pseudo classes</p>
+        <p>#example p:first-child{}, p:last-child{}, :hover</p>
+        <h2>Siblings</h2>
+        <p>#example h4+p, it will find the siblings of that tags and give style to the latermost tag</p>
+        <p>#example p+p, and you have multiple p after the first p, the later ps will all have the same style assigned</p>
+    </div>
+</body>
+</html>

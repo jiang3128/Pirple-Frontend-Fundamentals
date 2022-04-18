@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body > div{
+            height: 500px;
+            width: 500px;
+            background-color: aquamarine;
+        }
+        #example{
+            background-color: red;
+        }
+        .example-class{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="example" class="example-class">
+        <p>class are more specific than generic types of selectors, it will overwrite the prvious properties</p>
+    </div>
+    <p>CSS Specificity is super important with CSS</p>
+    <ul>
+        <li>Type selectors (e.g. h1, div, header, p)</li>
+        <li>Class selectors (e.g. .example-class</li>
+        <li>ID Selectors (e.g. #example)</li>
+    </ul>
+</body>
+</html>
