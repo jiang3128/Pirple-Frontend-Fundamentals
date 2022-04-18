@@ -1,0 +1,22 @@
+{
+  "name": "frontend_foundamentals",
+  "version": "1.0.0",
+  "description": "Personal Self Improvements Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiang3128/Pirple-Frontend-Fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiang3128/Pirple-Frontend-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/jiang3128/Pirple-Frontend-Fundamentals#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}

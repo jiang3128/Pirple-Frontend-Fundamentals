@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+      #example {
+        background-color: lightblue;
+      }
+      nav,
+      footer {
+        height: 50px;
+        background-color: teal;
+        line-height: 50px;
+      }
+      nav ul {
+        list-style: none;
+        padding-left: 0%;
+        display: flex;
+        justify-content: space-around;
+      }
+      nav ul li {
+        background-color: lightblue;
+        font-size: 1.5rem;
+      }
+      nav ul li :hover {
+        background-color: black;
+        color: white;
+        line-height: 50px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 0 10px;
+      }
+      #intro {
+        text-align: center;
+      }
+      #intro img {
+        width: 25%;
+        border-radius: 25px;
+        height: 50%;
+      }
+      main article {
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content: center;
+        margin: 0 20px;
+      }
+      #blog-text {
+        width: 40%;
+        margin: 20px 20px;
+        font-size: 1.5rem;
+      }
+      #blog-text p:first-child {
+        margin-bottom: 0.5rem;
+      }
+      .card {
+        background-color: lightgreen;
+        border: 1px solid darkgreen;
+        border-radius: 5px;
+        padding: 20px 20px;
+      }
+      .card h4 {
+        text-align: center;
+      }
+      .card li {
+        font-size: 1.5rem;
+        text-align: start;
+        list-style: none;
+      }
+      footer p{
+          color: white;
+          font-size: 1rem;
+          padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="example" class="example-class">
+      <p>More Properties and Mobile Responsiveness</p>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Matcha Latte</a></li>
+        <li><a href="#">Mocha</a></li>
+        <li><a href="#">Americano</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header id="intro">
+        <h1>My favorite Coffee</h1>
+        <section>
+          <img
+            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2018%2F08%2Foriginal-201502-r-matcha-latte.jpg"
+            alt="Matcha Latte"
+          />
+          <h3>Starbucks has some good matcha latte</h3>
+        </section>
+      </header>
+
+      <article>
+        <section id="blog-text">
+          <p>
+            Matcha powder is made from ground green tea leaves. Unlike when you
+            drink steeped green tea, you consume the entire tea leaf in a matcha
+            latte.
+          </p>
+          <p>
+            As a result, matcha has approximately 10x more nutrients than
+            regular green tea! (If you’re interested in more matcha benefits,
+            click here). We, of course, love it because it tastes good. Matcha
+            powder has a slightly bitter, earthy taste that I love to use in
+            sweet recipes like smoothies, ice cream, milkshakes, frosting, and
+            even doughnuts!
+          </p>
+        </section>
+
+        <section id="blog-text">
+          <section id="ingredients" class="card">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>1 1/2 teaspoons matcha powder</li>
+              <li>1 tablespoon hot water</li>
+              <li>2 teaspoons honey, or to taste</li>
+              <li>3/4 cup hot milk</li>
+            </ul>
+          </section>
+        </section>
+      </article>
+    </main>
+    <footer>
+        <p>Jiang's learning on Pirple</a>
+    </footer>
+  </body>
+</html>
